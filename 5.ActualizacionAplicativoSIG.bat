@@ -3,12 +3,12 @@ REM @Creado por: Ing. Cristian Andres Murillo A. Esp. en SIG
 REM @Drescripcion: Script para actualizacion de las tablas de
 REM lados de manzana, predios y terrenos en el aplicativo SIG ESTRATIFICACION
 
-SET PGPASSWORD=adminestra10A
-SET user=postgres
-SET dbname=bd_estratificacion
-SET terrenos=terrenos_20122016.shp
-SET predios=predios_20122016.dbf
-set es=E:\es_DIC_16_2016.csv
+SET PGPASSWORD=**
+SET user=**
+SET dbname=**
+SET terrenos=**.shp
+SET predios=**.dbf
+set es=E:\**.csv
 echo on
 
 "C:\Program Files\PostgreSQL\9.3\bin\psql.exe" -U %user% -d %dbname% -c "DROP VIEW IF EXISTS public.terreno_estrato;"
