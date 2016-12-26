@@ -5,7 +5,7 @@ import psycopg2.extras
 
 def conectarBD():
 	try:
-		conn = psycopg2.connect("dbname='bd_estratificacion' user='postgres' host='172.18.10.127' password='adminestra10A'")
+		conn = psycopg2.connect("dbname='********' user='****' host='**.***.**.***' password='*********'")
 		conn.autocommit = True
 	 	print("Conectado exitosamente a la base de datos")
 	 	return conn
